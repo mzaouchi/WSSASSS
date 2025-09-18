@@ -1,0 +1,39 @@
+div {
+  background-color: rgb(220, 123, 38);
+}
+
+h1 {
+  color: rgb(154, 24, 24);
+}
+
+h2 {
+  color: rgb(220, 123, 38);
+}
+
+p {
+  text-decoration: underline;
+  color: aqua;
+  font-size: 22px;
+}
+
+li {
+  text-decoration: underline;
+  color: aqua;
+  font-size: 22px;
+}
+
+div h1 {
+  color: blue;
+}
+
+#aa {
+  display: flex;
+  justify-content: space-between;
+}
+
+#zz {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */

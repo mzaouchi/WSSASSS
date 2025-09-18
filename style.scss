@@ -1,0 +1,46 @@
+@use 'variables';
+@use 'divdiv';
+$marwen : rgb(154, 24, 24);
+
+@mixin dhia{
+    text-decoration: underline;
+    color: aqua;
+    font-size: 22px;
+}
+
+h1{
+    color: $marwen;
+}
+
+h2{
+    color: variables.$safa;
+}
+
+p{
+    @include dhia()
+}
+
+li{
+    @include dhia()
+}
+
+div{
+    h1{
+        color: blue;
+    }
+}
+
+
+@mixin pos($a){
+    display: flex;
+    justify-content: $a;
+}
+
+#aa{
+    @include pos(space-between)
+}
+
+#zz{
+    @include pos(space-around)
+}
+
